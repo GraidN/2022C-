@@ -1,0 +1,14 @@
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.csproj.AssemblyReference.cache
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.AssemblyInfoInputs.cache
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.AssemblyInfo.cs
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.csproj.CoreCompileInputs.cache
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\bin\Debug\netcoreapp3.1\RandomSalary.exe
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\bin\Debug\netcoreapp3.1\RandomSalary.deps.json
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\bin\Debug\netcoreapp3.1\RandomSalary.runtimeconfig.json
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\bin\Debug\netcoreapp3.1\RandomSalary.runtimeconfig.dev.json
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\bin\Debug\netcoreapp3.1\RandomSalary.dll
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\bin\Debug\netcoreapp3.1\RandomSalary.pdb
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.dll
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.pdb
+C:\Users\sth08z\source\repos\RandomSalary\RandomSalary\obj\Debug\netcoreapp3.1\RandomSalary.genruntimeconfig.cache
