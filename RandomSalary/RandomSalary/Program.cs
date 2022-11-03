@@ -27,18 +27,19 @@ namespace RandomSalary
             List<int> Salaries = new List<int>();
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            var bytes = File.ReadAllBytes("RandomSalary.bin");
+            var bytes = File.ReadAllBytes("RandomSalary.bin"); //Openinfile and reading bytes
             sw.Stop();
             for (int i = 0; i < bytes.Length / 4; i++)//No specific number
             {
-                Salaries.Add(BitConverter.ToInt32(bytes, i*4));
+                Salaries.Add(BitConverter.ToInt32(bytes, i*4));//Converting back to Int
             }
-            BinaryWriter bw = new BinaryWriter(File.Open("UpdatedRandomSalary.bin", FileMode.Create));
+
+            BinaryWriter bw = new BinaryWriter(File.Open("UpdatedRandomSalary.bin", FileMode.Create));//Opening file stream
             Stopwatch sw2 = new Stopwatch();
             sw2.Start();
             foreach (var salary in Salaries)
             {
-                bw.Write(BitConverter.GetBytes((int)(salary * 1.2)));
+                bw.Write(BitConverter.GetBytes((int)(salary * 1.2))); //Converting then write
             }
             sw2.Stop();
 
@@ -54,16 +55,16 @@ namespace RandomSalary
             Random rnd = new Random();
             for (int i = 0; i < 1000000; i++)
             {
-                Salaries.Add(BitConverter.GetBytes(rnd.Next(200000, 550000)));
+                Salaries.Add(BitConverter.GetBytes(rnd.Next(200000, 550000)));//Populating list
             }
 
 
-            BinaryWriter bw = new BinaryWriter(File.Open("RandomSalary.bin", FileMode.Create));
+            BinaryWriter bw = new BinaryWriter(File.Open("RandomSalary.bin", FileMode.Create));//Opening a filestream
             Stopwatch sw = new Stopwatch();
             sw.Start();
             foreach (Byte[] values in Salaries)
             {
-                bw.Write(values);
+                bw.Write(values);//Write to file per salary
             }
             sw.Stop();
             bw.Close();
